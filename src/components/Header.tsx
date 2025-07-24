@@ -1,9 +1,8 @@
 import { useState, useEffect } from 'react';
-import { FaBullseye, FaHandshake, FaAward } from "react-icons/fa";
 import { Menu, X} from 'lucide-react';
 import logo from "../assets/logo.png"; // corrige le chemin selon ton arborescence
 import { Link } from 'react-router-dom';
-import meImage from "../assets/Boss1.png";
+
 
 
 
