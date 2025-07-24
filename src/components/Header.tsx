@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react';
+import { FaBullseye, FaHandshake, FaAward } from "react-icons/fa";
 import { Menu, X} from 'lucide-react';
 import logo from "../assets/logo.png"; // corrige le chemin selon ton arborescence
 import { Link } from 'react-router-dom';
+import meImage from "../assets/Boss1.png";
 
 
 
@@ -43,10 +45,10 @@ const navItems = [
               <Link
                 key={item.name}
                 to={item.href}
-                className="text-gray-700 hover:text-blue-700 font-medium transition-colors duration-200 relative group"
+                className="text-gray-700 hover:text-green-700 font-bold font-medium transition-colors duration-200 relative group"
               >
                 {item.name}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-700 transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-green-700 transition-all duration-300 group-hover:w-full"></span>
               </Link>
             ))}
           </nav>
